@@ -1,3 +1,5 @@
+#!/bin/bash
+# 
 
 
 # Working Perfectly Fine (Does give you eDSPermissionError but user did get created and I was able to log in with the account and password that I set in the script)
