@@ -1,5 +1,14 @@
 #!/bin/bash
 
+
+# Grab Version:
+# curl -s "https://formulae.brew.sh/api/formula/wireshark.json" | sed -n 's/.*"stable":"\([^"]*\)".*/\1/p'
+
+# M1 => https://2.na.dl.wireshark.org/osx/Wireshark%204.0.6%20Arm%2064.dmg
+# Intel => https://2.na.dl.wireshark.org/osx/Wireshark%204.0.6%20Intel%2064.dmg
+
+
+
 # Check the macOS device architecture
 arch_name=$(uname -m)
 
