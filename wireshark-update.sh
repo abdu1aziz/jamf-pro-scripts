@@ -7,6 +7,9 @@
 # M1 => https://2.na.dl.wireshark.org/osx/Wireshark%204.0.6%20Arm%2064.dmg
 # Intel => https://2.na.dl.wireshark.org/osx/Wireshark%204.0.6%20Intel%2064.dmg
 
+# Check OS Hardware:
+# macOS_device_check=$(defaults read ~/Library/Preferences/com.apple.SystemProfiler.plist 'CPU Names' |cut -sd '"' -f 4 |uniq)
+# echo $macOS_device_check
 
 
 # Check the macOS device architecture
